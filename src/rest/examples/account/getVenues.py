@@ -4,9 +4,9 @@ from decouple import config
 import pandas as pd
 
 
-base_url = config('REST_API_URL')
-api_key = config('API_KEY')
-secret_key = config('SECRET_KEY')
+base_url = 'https://unified-api.quadra.trade'
+api_key = 'q9ddI7vmDubsC9OC4a30IBeOyKP1wPBC'
+secret_key = 'an8ECh7ZIxy44nFZrenmAeueQeGbWLnUB+13yp20U8/CZMln'
 
 
 async def get_venues():
